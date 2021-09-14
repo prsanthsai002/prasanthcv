@@ -1,0 +1,19 @@
+.body{
+    background-color: skyblue;
+}
+.gap{
+    margin-left: 300px;
+    padding: 10px;
+    border: solid blue 5px;
+    margin-right: 300px;
+    background-color: snow;
+    border-radius: 10px;
+}
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: skyblue;
+}
+input:focus {
+    border-color: blue;
+}
