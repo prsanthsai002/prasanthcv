@@ -1,0 +1,13 @@
+body{
+    background-color: steelblue;
+}
+.container{
+    padding-top: 150px;
+    padding-left: 280px;
+    padding-bottom: 123px;
+}
+.login{
+    background: linear-gradient(45deg,#2ab2e6,#7d8e3e);
+    width: 600px;
+    padding: 32px;
+}
