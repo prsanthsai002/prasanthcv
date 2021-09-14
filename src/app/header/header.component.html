@@ -1,0 +1,14 @@
+<ul>
+    <li><a class="nav-link active" href="/">Home</a></li>
+
+    <ng-container *ngIf="!auth.isAuthenticated()">
+        <li><a href="/auth/register">SignUp</a></li>
+        <li><a href="/auth/login">Login</a></li>
+    </ng-container>
+    <ng-container *ngIf="auth.isAuthenticated()">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/preview-resume">Preview</a></li>
+        <li><a href="/resume-builder">Edit-Resume</a></li>
+        <li><a class="logout" (click)="logout()">Logout</a></li>
+      </ng-container>
+</ul>
